@@ -2,7 +2,7 @@
 
 **RedEyeMap** is an advanced, interactive extension and wrapper for `Nmap`. It is designed to simplify complex network scanning, service enumeration, and vulnerability testing through a sleek, menu-driven interface.
 
-*Author: infinite667 ([@itsinfinite667](https://t.me/itsinfinite667))*
+*Author: infinite667
 
 ---
 
