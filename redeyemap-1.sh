@@ -4,9 +4,9 @@
 #                         RedEyeMap for nmap
 #
 #                              Welcome
-#              RedEyeMap Author By Murat Mehmeti - Scroll
+#              RedEyeMap Author By infinite667 - infinite667
 #                    Tested On Parrot OS & Kali Linux
-#                        Telegram @itsScroll
+#                        Telegram @itsinfinite667
 #============================================================================================================
 
 
@@ -35,7 +35,7 @@ sleep 1
 echo ""
 echo -e $yellow"[*] Thank You For Using RedEyeMap."
 echo ""
-echo -e $yellow"[*] Contact me in Telegram @itsScroll."
+echo -e $yellow"[*] Contact me in Telegram @itsinfinite667."
 exit
 }
 
@@ -74,7 +74,7 @@ echo ""
 echo "-----------------------------------------------------------------------------"
 echo -e $okegreen""
 echo -e $lightgreen'-- -- +=[(c) 2021- | RedEyeMap | An extension for Nmap. '
-echo -e $cyan'-- -- +=[ Author: Scroll < Murat Mehmeti >  ]=+ -- -- '
+echo -e $cyan'-- -- +=[ Author: infinite667 < infinite667 >  ]=+ -- -- '
 echo -e " "
 
 if [ $(id -u) != "0" ]; then
@@ -176,7 +176,7 @@ function scanoutput() {
     echo -e $white"	[$okegreen"4"$white]$okegreen  OUTPUT SCAN IN GREPABLE FORMATS "
     echo -e $white"	[$okegreen"5"$white]$okegreen  BACK  "
     echo -e " "
-    echo -n -e $red'  \033[4mScroll@Meoong:\033[0m>> '; tput sgr0 #insert your choice
+    echo -n -e $red'  \033[4minfinite667@Meoong:\033[0m>> '; tput sgr0 #insert your choice
              read DrS
 
            if test $DrS == '1'
@@ -333,7 +333,7 @@ function brutense	() {
 	    echo -e $white"	[$okegreen"70"$white]$cyan  xmpp-brute "
 	    echo -e $white"	[$okegreen"71"$white]$cyan  Back "
 	    echo -e " "
-	    echo -n -e $red'  \033[4mScroll@nse-brute:\033[0m>> '; tput sgr0 #insert your choice
+	    echo -n -e $red'  \033[4minfinite667@nse-brute:\033[0m>> '; tput sgr0 #insert your choice
 	      	read Brute
 	             if test $Brute == '1'
 	          	then
@@ -835,7 +835,7 @@ clear
   echo -e $white"	[$okegreen"33"$white]$cyan x11-access	"
   echo -e $white"	[$okegreen"34"$white]$cyan Back "
   echo -e " "
-  echo -n -e $red'  \033[4mScroll@nse-auth:\033[0m>> '; tput sgr0 #insert your choice
+  echo -n -e $red'  \033[4minfinite667@nse-auth:\033[0m>> '; tput sgr0 #insert your choice
            read win
         if test $win == '1'
           then
@@ -1138,7 +1138,7 @@ clear
   echo -e $white"	[$okegreen"42"$white]$cyan targets-ipv6-multicast-slaac	"
   echo -e $white"	[$okegreen"43"$white]$cyan targets-sniffer	"
   echo -e $white"	[$okegreen"44"$white]$cyan back	"
-  echo -n -e $red'  \033[4mScroll@nse-broadcast:\033[0m>> '; tput sgr0 #insert your choice
+  echo -n -e $red'  \033[4minfinite667@nse-broadcast:\033[0m>> '; tput sgr0 #insert your choice
         read min
         if test $min == '1'
           then
@@ -1480,7 +1480,7 @@ clear
   echo -e $white"	[$okegreen"43"$white]$cyan supermicro-ipmi-conf "
   echo -e $white"	[$okegreen"44"$white]$cyan back "
   echo -e " "
-  echo -n -e $red'  \033[4mScroll@nse-exploit:\033[0m>> '; tput sgr0 #insert your choice
+  echo -n -e $red'  \033[4minfinite667@nse-exploit:\033[0m>> '; tput sgr0 #insert your choice
            read cin
         if test $cin == '1'
           then
@@ -1779,7 +1779,7 @@ function fuzzer () {
   echo -e $white"	[$okegreen"3"$white]$cyan File http-phpself-xss	"
   echo -e $white"	[$okegreen"4"$white]$cyan Back "
   echo -e " "
-  echo -n -e $red'  \033[4mScroll@nse-fuzzer:\033[0m>> '; tput sgr0 #insert your choice
+  echo -n -e $red'  \033[4minfinite667@nse-fuzzer:\033[0m>> '; tput sgr0 #insert your choice
            read win
         if test $win == '1'
           then
@@ -1836,7 +1836,7 @@ function malware () {
   echo -e $white"	[$okegreen"9"$white]$cyan smtp-strangeport	"
 	echo -e $white"	[$okegreen"10"$white]$cyan back	"
 	echo
-  echo -n -e $red'  \033[4mScroll@nse-malware:\033[0m>> '; tput sgr0 #insert your choice
+  echo -n -e $red'  \033[4minfinite667@nse-malware:\033[0m>> '; tput sgr0 #insert your choice
            read malw
         if test $malw == '1'
           then
@@ -2014,7 +2014,7 @@ echo -e $white"	[$okegreen"87"$white]$cyan supermicro-ipmi-conf "
 echo -e $white"	[$okegreen"88"$white]$cyan wdb-version "
 echo -e $white"	[$okegreen"89"$white]$cyan back "
 echo -e " "
-echo -n -e $red'  \033[4mScroll@nse-vuln:\033[0m>> '; tput sgr0 #insert your choice
+echo -n -e $red'  \033[4minfinite667@nse-vuln:\033[0m>> '; tput sgr0 #insert your choice
          read vuln
       if test $vuln == '1'
         then
@@ -2590,7 +2590,7 @@ echo -e $red"  Nmap Script Engine - Advanced Scanning with Nmap Script "
 				echo -e $white"	[$okegreen"07"$white]$cyan  vuln-category "
 				echo -e $white"	[$okegreen"08"$white]$cyan  back to menu "
 				echo
-				echo -n -e $red'  \033[4mScroll@nse:\033[0m>> '; tput sgr0 #insert your choice
+				echo -n -e $red'  \033[4minfinite667@nse:\033[0m>> '; tput sgr0 #insert your choice
 		      	read ceh
 		          if test $ceh == '1'
 		          	then
@@ -2671,7 +2671,7 @@ function pingbebeb() {
     echo -e $white"	[$okegreen"6"$white]$cyan  IP PROTOCOL PING SCANS "
     echo -e $white"	[$okegreen"7"$white]$cyan  BACK  "
     echo -e " "
-    echo -n -e $red'  \033[4mScroll@PING!:\033[0m>> '; tput sgr0 #insert your choice
+    echo -n -e $red'  \033[4minfinite667@PING!:\033[0m>> '; tput sgr0 #insert your choice
              read DrS
 
            if test $DrS == '1'
@@ -2774,7 +2774,7 @@ echo ""
   echo -e $white"	[$okegreen"7"$white]$cyan  COMPREHENSIVE SCAN [BEST]  "
   echo -e $white"	[$okegreen"8"$white]$cyan  BACK  "
 	echo -e 	" "
-  echo -n -e $red'  \033[4mScroll@Headshot:\033[0m>> '; tput sgr0 #insert your choice
+  echo -n -e $red'  \033[4minfinite667@Headshot:\033[0m>> '; tput sgr0 #insert your choice
       read Scanning
 			if test $Scanning == '1'
 				then
@@ -2867,7 +2867,7 @@ echo ""
     echo -e $white"	[$okegreen"11"$white]$cyan  COLLECTING VALID EMAIL ADDRES  "
     echo -e $white"	[$okegreen"12"$white]$cyan  BACK  "
     echo -e " "
-    echo -n -e $red'  \033[4mScroll@WebService:\033[0m>> '; tput sgr0 #insert your choice
+    echo -n -e $red'  \033[4minfinite667@WebService:\033[0m>> '; tput sgr0 #insert your choice
     read Scanning
     if test $Scanning == '1'
       then
@@ -2970,7 +2970,7 @@ echo -e "
 		             RedEyeMap - Credits
 \033[31m##########################################################################\033[m"
 echo
-echo -e $red "Murat Mehmeti - Scroll"
+echo -e $red "infinite667 - infinite667"
 echo
 
 }
@@ -2999,7 +2999,7 @@ echo "                    88000000008880#      000    "
 echo "                          9               0 "
 echo ""
 echo "-----------------------------------------------------------------------------"
-echo -e $cyan"    Script by           $white":" $red Murat Mehmeti ( Scroll ) "
+echo -e $cyan"    Script by           $white":" $red infinite667 ( infinite667 ) "
 echo -e $cyan"    Version             $white":" $red $Version  "
 echo -e $cyan"    Codename            $white":" $red $Codename "
 echo -e $cyan ""
@@ -3018,7 +3018,7 @@ echo -e $okegreen"    ========================================================= 
 		echo -e $white"	[$okegreen"11"$white]$cyan  CREDITS  "
 		echo -e $white"	[$okegreen"12"$white]$cyan  EXIT  "
 		echo -e " "
-		echo -n -e $red'  \033[4mScroll@RedEyeMapmap-v2:\033[0m '; tput sgr0 #insert your choice
+		echo -n -e $red'  \033[4minfinite667@RedEyeMapmap-v2:\033[0m '; tput sgr0 #insert your choice
 		read RedEyeMap
 		if test $RedEyeMap == '1'
       then
@@ -3136,7 +3136,7 @@ echo "                    88000000008880#      000    "
 echo "                          9               0 "
 echo ""
 echo "------------------------------------------------------------------------------"
-echo -e $cyan"    Script by           $white":" $red Murat Mehmeti ( Scroll ) "
+echo -e $cyan"    Script by           $white":" $red infinite667 ( infinite667 ) "
 echo -e $cyan"    Version             $white":" $red $Version  "
 echo -e $cyan"    Codename            $white":" $red $Codename "
 echo -e $cyan ""
@@ -3155,7 +3155,7 @@ echo -e $okegreen"    ========================================================= 
 		echo -e $white"	[$okegreen"11"$white]$cyan  CREDITS  "
 		echo -e $white"	[$okegreen"12"$white]$cyan  EXIT  "
 		echo -e " "
-		echo -n -e $red'  \033[4mScroll@RedEyeMapmap-v2:\033[0m '; tput sgr0 #insert your choice
+		echo -n -e $red'  \033[4minfinite667@RedEyeMapmap-v2:\033[0m '; tput sgr0 #insert your choice
 		read RedEyeMap
 		if test $RedEyeMap == '1'
       then
